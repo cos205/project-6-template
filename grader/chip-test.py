@@ -48,7 +48,7 @@ def copy_upwards(folder, extension, correct=[]):
                     os.rename(os.path.join(folder, f), os.path.join(folder, c + extension))
 
 def software_project(temp_dir, project_num, t):
-	    # tests with only one file to translate
+    # tests with only one file to translate
     one_file = ['Add', 'Max', 'MaxL', 'Rect', 'Pong'] +\
                ['StaticTest', 'PointerTest', 'BasicTest', 'StackTest', 'SimpleAdd'] +\
                ['BasicLoop', 'FibonacciSeries', 'SimpleFunction']
@@ -103,6 +103,7 @@ def software_project(temp_dir, project_num, t):
         dirname = os.path.join(temp_dir, test)
         filename = os.path.join(dirname, test)
         if test in one_file:
+            print(filename + input_extension)
             output = program.run(filename + input_extension)
         else:
             output = program.run(dirname)

@@ -1,7 +1,9 @@
 # Project 6
 
 The project description is provided in the file Project 6.pdf
-You can implement your assembler in either Java, or Python, and will need to add a lang.txt file with either "python" or "java" in your ```/src/HackAssembler``` directory.
+You can implement your assembler in either Java, or Python. 
+You will need to edit the lang.txt file with either "python3" or "java" in your ```/src``` directory.
+You *must* include a HackAssembler.py or HackAseembler.java file in ```/src```.
 We recommend following / implementing the APIs presented in lecture 6.
 
 ## Materials
